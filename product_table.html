@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        table {
+            width: 80%;
+            max-width: 600px;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f8f8f8;
+            color: #333;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f8f8;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        td {
+            border-bottom: 1px solid #ddd;
+        }
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th>PRODUCTS</th>
+            <th>PRICE</th>
+            <th>AVAILABILITY</th>
+        </tr>
+        <tr>
+            <td>MacBook Pro</td>
+            <td>&#8369 103,490</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Airpods</td>
+            <td>&#8369 11,990</td>
+            <td>Out of Stock</td>
+        </tr>
+        <tr>
+            <td>Iphone 15 Pro Max</td>
+            <td>&#8369 70,590</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Apple Watch SE 2nd Gen</td>
+            <td>&#8369 17,790</td>
+            <td>Limited Stock</td>
+        </tr>
+        <tr>
+            <td>Apple Earpods</td>
+            <td>&#8369 1,390</td>
+            <td>Available</td>
+        </tr>
+    </table>
+
+</body>
+</html>
